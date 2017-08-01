@@ -1,0 +1,10 @@
+<goml>
+  <import-material typeName="mat" src="index.sort"/>
+  <scene>
+    <camera></camera>
+    <mesh position="1,0,0" color="blue" material="new(mat)"/>
+    <object position="0,2,0">
+      <mesh position="1,0,0" color="orange" material="new(mat)"/>
+    </object>
+  </scene>
+</goml>

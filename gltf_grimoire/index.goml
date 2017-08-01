@@ -1,0 +1,11 @@
+<goml>
+  <scene>
+    <camera>
+      <camera.components>
+        <MouseCameraControl/>
+      </camera.components>
+    </camera>
+    <light intensity="3" rotation="-45,-45,0"/>
+    <model src="glTF/Avocado.gltf" scale="50" rotation="y(150d)"/>
+  </scene>
+</goml>

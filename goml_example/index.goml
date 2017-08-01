@@ -1,0 +1,13 @@
+<goml>
+  <renderer >
+    <render-scene></render-scene>
+  </renderer>
+  <scene>
+    <camera position="0"></camera>
+    <mesh geometry="sphere" scale="-1,1,1" texture="360-image.jpg">
+      <mesh.components>
+        <Rotate speed="0,0.1,0"/>
+      </mesh.components>
+    </mesh>
+  </scene>
+</goml>
